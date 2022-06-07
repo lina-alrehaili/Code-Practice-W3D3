@@ -1,0 +1,41 @@
+body {
+    font-family: 'Cute Font', cursive;
+    background-color: pink;
+}
+
+.header-block {
+    display: flex;  /* display flex to put in a row */
+    align-items: center;
+    justify-content: center;
+}
+
+.header-block img {
+    width: 10%;
+}
+
+.block-col-1 {
+    background-color: rgba(174, 134, 214, 0.8);
+    border: 2px solid rgba(109, 56, 161, 0.8);
+    padding: 5px;/* margin and padding to put each block in proper place */
+    margin: 2px;
+    text-align: center;
+
+}
+
+.block-col-1 img{
+    width: 150px;
+    height: 150px;
+}
+
+.block-col-2 {
+    background-color: rgba(121, 186, 235, 0.8);
+    border: 2px solid rgba(61, 117, 159, 0.8);
+    padding: 5px;/* margin and padding to put each block in proper place */
+    margin: 2px;
+    text-align: center;
+}
+
+.block-col-2 img{
+    width: 150px;
+    height: 150px;
+}
